@@ -1,7 +1,7 @@
 <?php Header('Content-type: text/xml');
 $servername = "localhost"; //the address to the server hosting freepbx mysql database
 $username = "freepbxuser"; //username to connect with (freepbxuser is default)
-$password = "password"; //and the password to be used, it can be found i /etc/freepbx.conf
+$password = "password"; //and the password to be used, it can be found in /etc/freepbx.conf
 $dbname = "asterisk"; //database name holding the users and extensions, asterisk is the default database name
 
 // Create connection
